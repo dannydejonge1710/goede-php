@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+
+
+img{
+	position: relative;
+	z-index: 0;
+}
+
+h1{
+	position: absolute;
+	top: 350px;
+	left: 600px;
+	z-index: 99;
+	color: white;
+	font-size: 100px;
+	font-family: Allan Font;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+h2{
+	position: absolute;
+	top: 550px;
+	left: 600px;
+	z-index: 99;
+	color: white;
+	font-size: 100px;
+	font-family: Allan Font;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
