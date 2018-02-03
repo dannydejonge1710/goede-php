@@ -1,0 +1,22 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background-image: url(<?php echo $time ?>);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1{
+
+	margin-top: 200px;
+	text-align: center;
+	color: <?php echo $color ?>;
+	font-size: 100px;
+	font-family: Allan Font;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
