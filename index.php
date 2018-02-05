@@ -24,7 +24,7 @@
 	else if (date("H") < 24) {
 		echo " avond";
 		$time = "img/evening.png" ;	
-		$color = white ;		
+		$color = blue ;		
 	}
 
 	echo "<br>Het is nu " . date("H:i") . "</h1>" ;	
